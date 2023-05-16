@@ -6,7 +6,6 @@
   width: 18rem;
   height: 5.2rem;
   border-radius: 9px;
-  background-color: $light-orange;
   gap: 1rem;
   font-size: 2rem;
   font-weight: 500;
@@ -14,7 +13,36 @@
   font-family: $primary-font;
   color: $deep-blue;
   transition: all 0.2s linear;
+  .circle {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    padding: 0.4rem;
+
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
 }
-.btn:hover {
+.btn--primary {
+  .circle {
+    background-color: $deep-blue;
+  }
+  background-color: $light-orange;
+}
+
+.btn--primary:hover {
   background-color: lighten($light-orange, 6%);
+}
+
+.btn.btn--secondary {
+  .circle {
+    background-color: #335b6b;
+  }
+  background-color: $deep-blue;
+  color: #fff;
+}
+.btn--secondary:hover {
+  background-color: lighten($deep-blue, 6%);
 }
