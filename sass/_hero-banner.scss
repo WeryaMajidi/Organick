@@ -7,8 +7,7 @@
   margin: 0 auto;
   overflow: hidden;
   position: relative;
-  z-index: 1;
-
+  background-color: $milky-white;
   &_text {
     width: 37.5%;
     height: 60%;
@@ -17,7 +16,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    z-index: 2;
 
     h3 {
       font-family: $tertiary-font;
@@ -39,6 +37,8 @@
     width: 50%;
     height: 110%;
     background-image: url("http://127.0.0.1:5500/img/breakfast.png");
+    background-color: $milky-white;
+    background-blend-mode: multiply;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -54,12 +54,6 @@
   position: absolute;
   left: 0;
   top: 0;
-  background-image: url("../img/background-patterns.svg"),
-    linear-gradient(
-      to right,
-      rgba(241, 239, 240, 0.7) 0%,
-      rgba(241, 239, 240, 0.1) 75%,
-      rgba(241, 239, 240, 0.1) 100%
-    );
+  background-image: url("../img/background-patterns.svg");
   background-size: cover;
 }
