@@ -1,0 +1,78 @@
+.hero-banner {
+  height: 60rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 128rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+
+  &_text {
+    width: 37.5%;
+    height: 60%;
+    align-self: center;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+
+    h3 {
+      font-family: $tertiary-font;
+      font-size: 3.2rem;
+      color: $light-green;
+      font-weight: 500;
+    }
+    p {
+      font-family: $primary-font;
+      font-size: 5.2rem;
+      font-weight: 700;
+      color: $deep-blue;
+    }
+    .btn {
+      margin-top: 2rem;
+    }
+    .circle {
+      background-color: $deep-blue;
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+      padding: 0.4rem;
+
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+  &_img {
+    width: 50%;
+    height: 110%;
+    background-image: url("http://127.0.0.1:5500/img/breakfast.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+  }
+}
+
+.hero-banner::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url("../img/background-patterns.svg"),
+    linear-gradient(
+      to right,
+      rgba(241, 239, 240, 0.7) 0%,
+      rgba(241, 239, 240, 0.1) 75%,
+      rgba(241, 239, 240, 0.1) 100%
+    );
+  background-size: cover;
+}
