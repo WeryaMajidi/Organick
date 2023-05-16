@@ -1,0 +1,20 @@
+.btn:link,
+.btn:visited {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18rem;
+  height: 5.2rem;
+  border-radius: 9px;
+  background-color: $light-orange;
+  gap: 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+  text-decoration: none;
+  font-family: $primary-font;
+  color: $deep-blue;
+  transition: all 0.2s linear;
+}
+.btn:hover {
+  background-color: lighten($light-orange, 6%);
+}
