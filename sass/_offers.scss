@@ -1,0 +1,13 @@
+.offers {
+  max-width: 100rem;
+  margin: 9rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  .offer-item {
+    max-width: 42rem;
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+}
