@@ -1,0 +1,32 @@
+/*----Fonts {Open Sans-Roboto-Yellowtail}----*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&family=Yellowtail&display=swap");
+////////////////////////////////
+/*----CSS-RESET----*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*:focus {
+  outline: none;
+}
+html {
+  font-size: 62.5%;
+}
+////////////////////////////////
+/*----Font-Variables----*/
+$primary-font: "Roboto";
+$secondary-font: "Open Sans";
+$tertiary-font: "Yellowtail";
+
+////////////////////////////////
+/*----Color-Variables----*/
+$deep-blue: #274c5b;
+$light-green: #7eb693;
+$light-orange: #efd372;
+$dark-gray: #525c60;
+$light-gray: #d4d4d4;
+$light-gray--2: #eff6f1;
+$milky-white: #f9f8f8;
