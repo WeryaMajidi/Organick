@@ -1,0 +1,20 @@
+.container--gallery {
+  background-color: #f1f8f4;
+}
+.gallery {
+  max-width: 128rem;
+  margin: 0 auto;
+  padding: 16rem 0;
+  color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.gallery-item {
+  width: 32rem;
+  height: 32rem;
+  display: grid;
+  place-items: center;
+  background-size: cover;
+  background-size: cover;
+}
