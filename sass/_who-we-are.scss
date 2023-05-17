@@ -1,0 +1,51 @@
+// Who We Are = .wwa
+.wwa {
+  height: 65rem;
+  max-width: 128rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h2 {
+    margin-top: 0.8rem;
+  }
+  &_img {
+    width: 60%;
+    height: 100%;
+    background-image: url("../img/farm.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  &_content {
+    background-color: #fff;
+    position: relative;
+    width: 40%;
+    height: 100%;
+  }
+}
+.wwa_desc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 3.5rem;
+  padding-left: 7rem;
+  background-color: #fff;
+  border-radius: 30px;
+  position: absolute;
+  left: -7rem;
+  top: 5rem;
+}
+.wwa_desc-row {
+  margin-top: 3rem;
+}
+.wwa_desc-row h4 {
+  font-size: 2rem;
+  font-family: $primary-font;
+  color: $deep-blue;
+}
+.wwa_desc-row p {
+  font-size: 1.7rem;
+  margin-top: 0.7rem;
+  font-family: $secondary-font;
+}
