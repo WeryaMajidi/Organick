@@ -1,0 +1,135 @@
+.container--testimonails {
+  position: relative;
+  background-image: url("../img/testimonail-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: $milky-white;
+  background-blend-mode: multiply;
+}
+
+.testimonials {
+  max-width: 128rem;
+  margin: 0 auto;
+  padding: 5rem 11rem;
+  // background-color: rebeccapurple;
+}
+.testimonials_header {
+  // background-color: rgb(177, 228, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h3 {
+    margin-bottom: 0.8rem;
+  }
+}
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70rem;
+  margin-top: 6rem;
+
+  &_avatar {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 11rem;
+    margin-bottom: 1.5rem;
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  &_score {
+    width: 12rem;
+    margin-bottom: 2rem;
+
+    img {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  &_text {
+    font-size: 1.8rem;
+    font-family: $secondary-font;
+    color: $dark-gray;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  &_user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .username {
+      font-size: 2.5rem;
+      font-weight: 500;
+      color: $deep-blue;
+      font-family: $primary-font;
+    }
+    .type {
+      font-size: 1.5rem;
+      font-family: $secondary-font;
+      color: $dark-gray;
+    }
+  }
+}
+.dots {
+  height: 1.3rem;
+  width: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+//
+.dot {
+  display: block;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  background-color: #c4c4c4;
+}
+.dot--active {
+  background-color: $light-green;
+}
+//
+.divider {
+  height: 1px;
+  width: 100%;
+  background-color: #e0e0e0;
+  margin: 10rem auto;
+}
+//
+.counters {
+  display: flex;
+  justify-content: space-evenly;
+}
+.counter-item {
+  width: 19rem;
+  height: 19rem;
+  background-color: aliceblue;
+  border-radius: 50%;
+  border: 5px solid $light-green;
+  user-select: none;
+
+  .inner-circle {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  &_text {
+    font-family: $secondary-font;
+    color: $deep-blue;
+    font-size: 1.6rem;
+  }
+}
