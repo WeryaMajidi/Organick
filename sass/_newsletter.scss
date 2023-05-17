@@ -1,0 +1,48 @@
+.newsletter {
+  max-width: 128rem;
+  margin: 18.5rem auto;
+  height: 26rem;
+  background-image: linear-gradient(to right, rgba(#fff, 0.1), rgba(#fff, 0.1)),
+    url("../img/newsletterbg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 3rem;
+  padding: 7.1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .secondary-heading {
+    color: #fff;
+    width: 30rem;
+  }
+
+  &_form {
+    height: 6.5rem;
+    width: 52rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+
+    input {
+      height: 100%;
+      flex-grow: 1;
+      border: none;
+      border-radius: 9px;
+      padding: 2.3rem;
+      font-family: $primary-font;
+      font-size: 1.8rem;
+      font-style: italic;
+      color: #ababab;
+    }
+    input:focus {
+      box-shadow: 0 0 0 0.8rem rgba(255, 255, 255, 0.5);
+    }
+
+    a.btn {
+      height: 100%;
+    }
+  }
+}
