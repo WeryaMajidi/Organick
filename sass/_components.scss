@@ -59,6 +59,19 @@
 .btn--tertiary:hover {
   background-color: darken(#fff, 6%);
 }
+//
+.btn--tertiary-border {
+  .circle {
+    background-color: #335b6b;
+  }
+  color: $deep-blue;
+  background-color: #fff;
+  border: 3px solid $deep-blue;
+}
+.btn--tertiary-border:hover {
+  color: #fff;
+  background-color: $deep-blue;
+}
 
 .btn.btn--large {
   width: 20rem;
