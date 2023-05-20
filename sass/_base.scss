@@ -25,6 +25,11 @@ html {
     font-size: 50%;
   }
 }
+@media (max-width: 21.875em) {
+  html {
+    font-size: 43.75%;
+  }
+}
 
 ////////////////////////////////
 /*----Font-Variables----*/

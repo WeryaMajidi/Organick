@@ -171,3 +171,22 @@
     width: 46%;
   }
 }
+@media (max-width: 34.375em) {
+  .footer {
+    flex-wrap: wrap;
+  }
+  .contact-us {
+    width: 45%;
+  }
+  .utility-pages {
+    width: 45%;
+    align-items: center;
+  }
+  .social-media {
+    padding: 0 1rem;
+    width: 100%;
+    order: 1;
+    border: none;
+    margin-top: 2rem;
+  }
+}

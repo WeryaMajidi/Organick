@@ -108,3 +108,9 @@
     }
   }
 }
+@media (max-width: 34.375em) {
+  // Disable last 4 products in Shop esction in extra small page
+  .product.disable-ixp {
+    display: none;
+  }
+}

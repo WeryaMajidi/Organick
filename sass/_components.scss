@@ -8,7 +8,11 @@
     padding: 0 4rem;
   }
 }
-
+@media (max-width: 20em) {
+  .container {
+    padding: 0 2.5rem;
+  }
+}
 //- - - - Buttons - - - -//
 .btn:link,
 .btn:visited {
@@ -99,5 +103,12 @@
   .btn:link,
   .btn:visited {
     font-size: 1.6rem;
+  }
+}
+@media (max-width: 28.125em) {
+  .btn:link,
+  .btn:visited {
+    height: 4.4;
+    width: 17rem;
   }
 }

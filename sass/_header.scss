@@ -242,3 +242,14 @@
     }
   }
 }
+
+@media (max-width: 28.125em) {
+  .header_actions {
+    width: 85%;
+  }
+}
+@media (max-width: 21.875em) {
+  .header_actions {
+    width: 95%;
+  }
+}

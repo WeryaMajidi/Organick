@@ -121,3 +121,29 @@
     }
   }
 }
+@media (max-width: 31.25em) {
+  .hero-banner_text > p {
+    width: 85%;
+  }
+}
+@media (max-width: 25em) {
+  .container--hero-banner {
+    padding: 0;
+  }
+  .hero-banner {
+    &_text > p {
+      width: 90%;
+    }
+    &_img {
+      width: 70%;
+    }
+  }
+  .hero-banner::after {
+    background-image: linear-gradient(
+      to right,
+      rgba(249, 248, 248, 0.2),
+      rgba(249, 248, 248, 0.2)
+    );
+    background-size: cover;
+  }
+}

@@ -3,7 +3,11 @@
   margin: 18.5rem auto;
   margin-bottom: 0;
   height: 26rem;
-  background-image: linear-gradient(to right, rgba(#fff, 0.1), rgba(#fff, 0.1)),
+  background-image: linear-gradient(
+      to right,
+      rgba(#fff, 0.15),
+      rgba(#fff, 0.15)
+    ),
     url("../img/newsletterbg.png");
   background-size: cover;
   background-position: center;
@@ -104,5 +108,34 @@
 @media (max-width: 37.5em) {
   .newsletter {
     height: 22rem;
+  }
+}
+@media (max-width: 31.25em) {
+  .newsletter {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 2rem;
+    .secondary-heading {
+      width: 100%;
+      text-align: center;
+    }
+
+    &_form {
+      width: 80%;
+    }
+  }
+}
+@media (max-width: 20em) {
+  .newsletter {
+    gap: 2rem;
+    .secondary-heading {
+      width: 100%;
+      text-align: center;
+    }
+    &_form {
+      width: 100%;
+    }
   }
 }

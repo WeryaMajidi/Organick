@@ -22,6 +22,7 @@
     position: relative;
     width: 40%;
     height: 100%;
+    border-radius: 30px;
   }
 }
 .wwa_desc {
@@ -86,5 +87,38 @@
     width: 100%;
     font-size: 1.6rem;
     margin-top: 0.7rem;
+  }
+}
+@media (max-width: 34.375em) {
+  .container--wwa {
+    padding: 0;
+  }
+  .wwa {
+    display: block;
+    position: relative;
+    &_img {
+      width: 100%;
+      height: 100%;
+    }
+    &_content {
+      width: 90%;
+      height: 80%;
+      position: absolute;
+      left: 5%;
+      top: 10%;
+      margin: 0;
+      .wwa_desc {
+        padding: 4rem;
+        display: block;
+        width: 100%;
+        left: 0;
+        top: 0;
+      }
+    }
+  }
+}
+@media (max-width: 28.125em) {
+  .wwa_content {
+    top: 5%;
   }
 }

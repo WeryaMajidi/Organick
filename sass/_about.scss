@@ -142,7 +142,6 @@
 
 @media (max-width: 40.625em) {
   .about {
-    height: 67.2rem;
     justify-content: center;
     flex-wrap: wrap;
     height: fit-content;
@@ -153,8 +152,6 @@
       display: flex;
       align-items: center;
       img {
-        display: block;
-        // height: 92%;
         width: 100%;
       }
     }
@@ -162,6 +159,25 @@
     &_text {
       & > p {
         margin-bottom: 2rem;
+      }
+      width: 80%;
+      align-items: center;
+      text-align: center;
+      .secondary-heading {
+        width: 100%;
+      }
+    }
+  }
+}
+@media (max-width: 21.875em) {
+  .about {
+    &_text {
+      h2 {
+        width: 100%;
+      }
+      & > p {
+        margin-bottom: 2rem;
+        width: 100%;
       }
       width: 80%;
       align-items: center;

@@ -161,3 +161,14 @@
     height: 15.5rem;
   }
 }
+@media (max-width: 34.375em) {
+  .testimonial {
+    width: 100%;
+  }
+  .counters {
+    flex-wrap: wrap;
+  }
+  .counter-item {
+    margin-bottom: 2rem;
+  }
+}

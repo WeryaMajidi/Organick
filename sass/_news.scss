@@ -190,3 +190,38 @@
     }
   }
 }
+@media (max-width: 34.375em) {
+  .news {
+    max-width: 128rem;
+    height: fit-content;
+    .row {
+      h2 {
+        width: 100%;
+        margin-top: 0.8rem;
+      }
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 2.5rem;
+      align-items: flex-end;
+    }
+  }
+
+  .article {
+    width: 90%;
+    margin-top: 12rem;
+
+    &_content {
+      height: fit-content;
+    }
+  }
+}
+@media (max-width: 25em) {
+  .article {
+    width: 100%;
+    margin-top: 12rem;
+    &_content {
+      width: 90%;
+      left: 5%;
+    }
+  }
+}
