@@ -36,6 +36,16 @@
   left: -7rem;
   top: 5rem;
 }
+@media (max-width: 68.75em) {
+  .wwa_desc {
+    padding: 2rem;
+    padding-left: 5.5rem;
+    left: -7rem;
+    top: 3rem;
+  }
+}
+//
+
 .wwa_desc-row {
   margin-top: 3rem;
 }

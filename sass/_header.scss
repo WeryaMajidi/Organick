@@ -5,8 +5,6 @@
   max-width: 128rem;
   height: 8rem;
   margin: 0 auto;
-  background-color: #fff;
-  padding: 0 2.8rem;
   font-family: $primary-font;
 
   &_logo {
@@ -22,8 +20,14 @@
     list-style: none;
     display: flex;
     justify-content: space-between;
-    width: 52rem;
+    gap: 4rem;
   }
+  @media (max-width: 75em) {
+    &_nav {
+      gap: 3rem;
+    }
+  }
+  //
   &_nav-item {
     font-size: 1.8rem;
     font-weight: 700;

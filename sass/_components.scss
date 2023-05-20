@@ -3,6 +3,11 @@
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: 81.25em) {
+  .container {
+    padding: 0 4rem;
+  }
+}
 //- - - - Buttons - - - -//
 .btn:link,
 .btn:visited {

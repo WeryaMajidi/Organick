@@ -6,6 +6,7 @@
   margin: 0 auto;
   min-height: 50rem;
   padding: 15rem 0;
+
   &_text {
     display: flex;
     flex-direction: column;
@@ -21,12 +22,17 @@
   }
   &_products {
     margin-top: 5rem;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 1rem;
 
     .product:hover {
       transform: translateY(-3px);
     }
+  }
+  .product {
+    margin-bottom: 0;
   }
 }
