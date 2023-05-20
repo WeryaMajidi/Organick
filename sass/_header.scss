@@ -5,11 +5,37 @@
   max-width: 128rem;
   height: 8rem;
   margin: 0 auto;
+  gap: 4.2rem;
   font-family: $primary-font;
+  position: relative;
 
   &_logo {
     width: 15rem;
     height: 4.2rem;
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+  .toggle-menu {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .toggle-close {
+      display: none;
+      width: 2.5rem;
+      height: 2.5rem;
+      img {
+        width: 100%;
+        display: block;
+      }
+    }
+  }
+  .humberger-menu {
+    width: 3rem;
+    height: 3rem;
+    display: none;
     img {
       display: block;
       width: 100%;
@@ -22,17 +48,9 @@
     justify-content: space-between;
     gap: 4rem;
   }
-  @media (max-width: 75em) {
-    &_nav {
-      gap: 3rem;
-    }
-  }
-  @media (max-width: 64em) {
-    &_nav {
-      gap: 2rem;
-    }
-  }
+
   //
+
   &_nav-item {
     font-size: 1.8rem;
     font-weight: 700;
@@ -54,12 +72,7 @@
     align-items: center;
     height: 4.5rem;
   }
-  @media (max-width: 64em) {
-    &_actions {
-      gap: 2rem;
-      width: 39rem;
-    }
-  }
+
   &_search {
     display: block;
     width: 27rem;
@@ -132,5 +145,79 @@
       margin-right: 0.5rem;
       font-family: $primary-font;
     }
+  }
+}
+@media (max-width: 75em) {
+  .header_nav {
+    gap: 3rem;
+  }
+}
+@media (max-width: 64em) {
+  .header_nav {
+    gap: 2rem;
+  }
+  .header_actions {
+    gap: 2rem;
+    width: 39rem;
+  }
+}
+
+@media (max-width: 62.5em) {
+  .header .humberger-menu {
+    display: block;
+  }
+
+  .header .toggle-menu {
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    height: 100vh;
+    width: 45rem;
+    right: -45rem;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4rem;
+    padding: 3rem 0;
+    transition: all 0.2s;
+
+    &.visible {
+      right: 0;
+    }
+
+    .toggle-close {
+      display: block;
+      order: -2;
+      align-self: flex-start;
+      margin-left: 3rem;
+    }
+  }
+  .header_actions {
+    height: fit-content;
+    width: fit-content;
+    width: 90%;
+    order: -1;
+  }
+  .header_search {
+    background-color: #f2f2f2;
+  }
+
+  nav {
+    flex-grow: 2;
+    width: 40%;
+  }
+  .header_nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    text-align: center;
+  }
+  .header_nav-item {
+    padding: 1rem;
   }
 }

@@ -46,11 +46,42 @@
       height: 100%;
     }
   }
-
-  @media (max-width: 64em) {
+}
+@media (max-width: 64em) {
+  .newsletter_form {
+    width: 42rem;
+    height: 5.5rem;
+  }
+}
+@media (max-width: 59.37em) {
+  .newsletter {
+    height: 24rem;
+    padding: 4rem;
     &_form {
       width: 42rem;
-      height: 5.5rem;
+      height: 5rem;
+    }
+  }
+  .secondary-heading {
+    font-size: 3.6rem;
+  }
+}
+@media (max-width: 53.125em) {
+  .newsletter {
+    &_form {
+      width: 38rem;
+      gap: 1rem;
+
+      input {
+        padding: 1.5rem;
+        font-size: 1.6rem;
+      }
+
+      a.btn {
+        height: 100%;
+        width: 10rem;
+        font-size: 1.6rem;
+      }
     }
   }
 }

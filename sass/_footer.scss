@@ -94,6 +94,7 @@
   //
   .utility-items {
     list-style: none;
+    width: 20rem;
 
     li {
       cursor: pointer;
@@ -154,4 +155,6 @@
     padding: 0 1.5rem;
     width: 44%;
   }
+}
+@media (max-width: 59.37em) {
 }

@@ -13,3 +13,12 @@
 .secondary-heading--light {
   color: #fff;
 }
+//
+@media (max-width: 56.25em) {
+  .tertiary-heading {
+    font-size: 3rem;
+  }
+  .secondary-heading {
+    font-size: 4rem;
+  }
+}

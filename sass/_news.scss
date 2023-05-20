@@ -98,3 +98,22 @@
     height: 35rem;
   }
 }
+@media (max-width: 53.125em) {
+  .article {
+    width: 48%;
+    height: 33rem;
+
+    &_summray {
+      h4 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1.4rem;
+      }
+    }
+    .btn {
+      margin-top: 3rem;
+      height: 5rem;
+    }
+  }
+}

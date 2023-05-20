@@ -18,3 +18,9 @@
   background-size: cover;
   background-size: cover;
 }
+@media (max-width: 59.37em) {
+  .gallery-item {
+    width: 28rem;
+    height: 28rem;
+  }
+}

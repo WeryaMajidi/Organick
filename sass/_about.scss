@@ -85,3 +85,26 @@
     padding: 1rem;
   }
 }
+@media (max-width: 68.75em) {
+  .about {
+    gap: 2rem;
+  }
+  .about_img {
+    img {
+      height: 80%;
+    }
+  }
+}
+@media (max-width: 56.25em) {
+  .about_img {
+    img {
+      height: 70%;
+    }
+  }
+  .about-explain {
+    width: 100%;
+  }
+  .about .about-point_item {
+    width: 90%;
+  }
+}
