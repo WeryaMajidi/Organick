@@ -72,3 +72,52 @@
     }
   }
 }
+@media (max-width: 43.75em) {
+  .hero-banner_text {
+    p {
+      font-size: 4.4rem;
+    }
+  }
+}
+@media (max-width: 40.625em) {
+  .hero-banner {
+    height: 40rem;
+    &_text {
+      width: 65%;
+      height: 80%;
+      padding-left: 6rem;
+    }
+  }
+}
+@media (max-width: 37.5em) {
+  .hero-banner {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: fit-content;
+    padding-top: 4rem;
+    &_text {
+      width: 100%;
+      margin-bottom: 4rem;
+      padding: 0;
+      gap: 1rem;
+      justify-content: center;
+      align-items: center;
+      z-index: 7;
+      & > p {
+        width: 70%;
+        display: block;
+        text-align: center;
+      }
+      & > p > br {
+        display: none;
+      }
+      .btn {
+        margin-top: 3rem;
+      }
+    }
+    &_img {
+      width: 50%;
+      height: 30rem;
+    }
+  }
+}

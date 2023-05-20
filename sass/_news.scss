@@ -117,3 +117,76 @@
     }
   }
 }
+@media (max-width: 40.625em) {
+  .article {
+    height: 31.5rem;
+    &_date {
+      left: 2.5rem;
+      top: 2.5rem;
+    }
+
+    &_content {
+      width: 90%;
+      height: 26rem;
+      left: 5%;
+      bottom: -6rem;
+      padding: 3rem;
+    }
+    &_author {
+      align-items: center;
+      font-size: 1.4rem;
+    }
+
+    &_summray {
+      h4 {
+        font-size: 1.8rem;
+      }
+      p {
+        font-size: 1.4rem;
+        margin-top: 5px;
+      }
+    }
+    .btn {
+      margin-top: 3rem;
+      height: 5rem;
+    }
+  }
+}
+@media (max-width: 37.5em) {
+  .news {
+    height: fit-content;
+  }
+  .articles {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .article {
+    width: 74%;
+    margin-top: 12rem;
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &_content {
+      width: 86%;
+      left: 7%;
+    }
+    &_author {
+      font-size: 1.6rem;
+    }
+
+    &_summray {
+      h4 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1.6rem;
+      }
+    }
+    .btn {
+      height: 5.5rem;
+    }
+  }
+}

@@ -36,14 +36,6 @@
   left: -7rem;
   top: 5rem;
 }
-@media (max-width: 68.75em) {
-  .wwa_desc {
-    padding: 2rem;
-    padding-left: 5.5rem;
-    left: -7rem;
-    top: 3rem;
-  }
-}
 //
 
 .wwa_desc-row {
@@ -58,4 +50,41 @@
   font-size: 1.7rem;
   margin-top: 0.7rem;
   font-family: $secondary-font;
+}
+//
+@media (max-width: 68.75em) {
+  .wwa_desc {
+    padding: 2rem;
+    padding-left: 5.5rem;
+    left: -7rem;
+    top: 3rem;
+  }
+}
+
+@media (max-width: 46.875em) {
+  .wwa {
+    &_img {
+      width: 55%;
+    }
+    &_content {
+      width: 45%;
+    }
+  }
+}
+@media (max-width: 40.625em) {
+  .wwa_desc {
+    padding: 2rem;
+    padding-left: 3.5rem;
+  }
+  .wwa_desc-row h4 {
+    font-size: 2rem;
+    font-family: $primary-font;
+    width: 100%;
+    color: $deep-blue;
+  }
+  .wwa_desc-row p {
+    width: 100%;
+    font-size: 1.6rem;
+    margin-top: 0.7rem;
+  }
 }

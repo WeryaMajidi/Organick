@@ -48,6 +48,7 @@
     .about-point_item {
       display: flex;
       justify-content: flex-start;
+      text-align: left;
       gap: 2rem;
       width: 70%;
       img {
@@ -106,5 +107,68 @@
   }
   .about .about-point_item {
     width: 90%;
+  }
+}
+@media (max-width: 43.75em) {
+  .about_img {
+    img {
+      height: 65%;
+    }
+  }
+  .about .about-point_item {
+    width: 100%;
+  }
+  .about .btn {
+    margin-top: 3rem;
+  }
+}
+@media (max-width: 46.875em) {
+  .about {
+    &_img {
+      width: 47% !important;
+      img {
+        height: 55%;
+      }
+    }
+
+    &_text {
+      width: 53%;
+    }
+    .about-explain {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 40.625em) {
+  .about {
+    height: 67.2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: fit-content;
+    gap: 6rem;
+    &_img {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      img {
+        display: block;
+        // height: 92%;
+        width: 100%;
+      }
+    }
+    //
+    &_text {
+      & > p {
+        margin-bottom: 2rem;
+      }
+      width: 80%;
+      align-items: center;
+      text-align: center;
+      .secondary-heading {
+        width: 100%;
+      }
+    }
   }
 }

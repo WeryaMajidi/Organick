@@ -89,3 +89,15 @@
 .btn.btn--large {
   width: 20rem;
 }
+@media (max-width: 50em) {
+  .btn:link,
+  .btn:visited {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 40.625em) {
+  .btn:link,
+  .btn:visited {
+    font-size: 1.6rem;
+  }
+}

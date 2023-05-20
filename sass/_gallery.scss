@@ -24,3 +24,30 @@
     height: 28rem;
   }
 }
+@media (max-width: 46.875em) {
+  .gallery-item {
+    width: 26rem;
+    height: 26rem;
+  }
+}
+@media (max-width: 43.75em) {
+  .gallery-item {
+    width: 24rem;
+    height: 24rem;
+  }
+}
+@media (max-width: 40.625em) {
+  .gallery-item {
+    width: 22rem;
+    height: 22rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .gallery {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .gallery-item {
+    margin-bottom: 3rem;
+  }
+}

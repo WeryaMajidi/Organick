@@ -11,3 +11,24 @@
     }
   }
 }
+@media (max-width: 40.625em) {
+  .offers .offer-item {
+    max-width: 38rem;
+  }
+}
+@media (max-width: 46.875em) {
+  .offers .offer-item {
+    max-width: 34rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .offers {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 8rem auto;
+    gap: 4rem;
+    .offer-item {
+      max-width: 42rem;
+    }
+  }
+}
