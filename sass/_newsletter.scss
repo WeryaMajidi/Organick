@@ -46,4 +46,11 @@
       height: 100%;
     }
   }
+
+  @media (max-width: 64em) {
+    &_form {
+      width: 42rem;
+      height: 5.5rem;
+    }
+  }
 }

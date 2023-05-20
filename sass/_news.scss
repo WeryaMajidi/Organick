@@ -91,3 +91,10 @@
     height: 6rem;
   }
 }
+
+@media (max-width: 64em) {
+  .article {
+    width: 48%;
+    height: 35rem;
+  }
+}
