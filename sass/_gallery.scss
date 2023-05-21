@@ -51,3 +51,9 @@
     margin-bottom: 3rem;
   }
 }
+@media (max-width: 25em) {
+  .gallery-item {
+    width: 24rem;
+    height: 24rem;
+  }
+}

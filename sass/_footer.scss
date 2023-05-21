@@ -1,3 +1,6 @@
+.container--copy-right {
+  padding: 0;
+}
 .footer {
   max-width: 128rem;
   margin: 0 auto;
@@ -188,5 +191,17 @@
     order: 1;
     border: none;
     margin-top: 2rem;
+  }
+}
+@media (max-width: 25em) {
+  .footer {
+    flex-wrap: wrap;
+  }
+  .contact-us {
+    width: 48%;
+  }
+  .utility-pages {
+    width: 48%;
+    align-items: center;
   }
 }
