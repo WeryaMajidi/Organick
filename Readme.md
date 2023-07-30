@@ -1,31 +1,30 @@
 # 🌿 Organick
 
-### 📄 About:
+<p align='center'>
+<img width="95%" src='./organick-sc.webp'/>
+</p>
 
-Organic Agricultural Products Online Shop Landing Page This is a fully responsive landing page for an online shop that sells organic agricultural products. The page was developed using HTML, Sass, and JavaScript. This page was developed based on a Figma design that you can see [here](https://www.figma.com/community/file/1202913967893500741) which was not responsive and I made it responsive by myself.
+### :page_facing_up: About
 
-**Features**
+Organic Agricultural Products Online Shop Landing Page This is a **fully responsive** landing page for an online shop that sells organic agricultural products. The page was developed using **HTML**, **Sass**, and **JavaScript**. This page was developed based on a Figma design that you can see [**Here**](https://www.figma.com/community/file/1202913967893500741) which was not responsive and I made it responsive by myself.
+
+### :star2: Features
 
 - Fully responsive design
 
 - Built with HTML, Sass, and JavaScript
 
-### 🎬 [Live Demo](https://organick-wrry.netlify.app/)
-
+### :clapper: Live Demo
+You can view a live demo of this project **[Here](https://organick-wrry.netlify.app/)**<br/>
 <sub>➡️ To load faster please connect your VPN and then see the live demo.</sub>
 
----
 
-### 💻 Installation
+### :computer: Installation
 
-- Clone the repository.
+1. Clone the repository. `git clone https://github.com/weryamajidi/Organick`
 
-`$ git clone https://github.com/weryamajidi/Organick`
+2. In the terminal run `npm install` to install all dependencies. 
 
-- In the terminal run below command to install all dependencies.
+<hr/>
 
-`$ npm install`
-
----
-
-P.S. : For commits, I've used **gitmoji**. For a better understanding use case of the **gitmoji** see [here](https://github.com/carloscuesta/gitmoji)
+:writing_hand: P.S.: For commits, I've used **gitmoji**. For a better understanding use case of the **gitmoji** see [**Here**](https://github.com/carloscuesta/gitmoji)
